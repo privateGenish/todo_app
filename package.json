@@ -1,0 +1,29 @@
+{
+  "name": "run_on_tutorial",
+  "version": "0.0.0",
+  "description": "a simple Todo app",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealgenish/todo_app.git"
+  },
+  "author": "therealgenish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealgenish/todo_app/issues"
+  },
+  "homepage": "https://github.com/therealgenish/todo_app#readme",
+  "private": true,
+  "engines": {
+    "node": ">=12.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "fastify": "^2.14.0"
+  }
+}
